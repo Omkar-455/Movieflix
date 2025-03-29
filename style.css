@@ -1,0 +1,492 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+.container1 {
+    width: 100%;
+    height: 95%;
+    background: url(./images/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.nav {
+    max-width: 80vw;
+    height: 100px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.nav img {
+    width: 149.84px;
+    height: 35.394px;
+    margin-top: 2.2vw;
+    z-index: 10;
+}
+
+.nav button {
+    background-color: #FF0000;
+    color: white;
+    height: 40px;
+    padding: 0 1.5vw;
+    margin: 2.2vw 3.5vh;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    z-index: 10;
+}
+
+.main {
+    width: 100%;
+    height: calc(95% - 90px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-family: Helvetica , sans-serif;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.text-container {
+    margin: 0 20vw;
+}
+
+.text1 h2 {
+    font-size: 4vw;
+    padding: 1vw 5vw;
+    line-height: 1.2;
+}
+
+.text1 p {
+    padding: 0 1vh 2vw 1vh;
+}
+
+.text2 p {
+    padding: 5px 5vw;
+}
+
+.input input {
+    background-color: black;
+    padding: 3vh 3vw;
+    width: 55%;
+    margin: 1.5vw 1vh;
+    border: 2px solid gray;
+    border-radius: 5px;
+    color: white;
+}
+
+input::placeholder {
+    color: rgb(199, 196, 196);
+}
+
+.input button {
+    background-color: #FF0000;
+    color: white;
+    padding: 3vh 2vw;
+    margin: 1.7vw 3vh;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.line {
+    height: 5px;
+    border-radius: 50%;
+    width: 100%;
+    background: linear-gradient(45deg, red, blue);
+
+}
+
+.container2 {
+    max-width: 95vw;
+    margin: auto;
+
+}
+
+.container2 h2 {
+    padding: 3vw 4vw 1.5vw 8vw;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+.img-conte {
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+.image {
+    position: relative;
+    width: 185px;
+    height: 265px;
+    border-radius: 10px;
+    flex-shrink: 0;
+
+}
+
+.img1 {
+    background-image: url(./images/img1.webp);
+    background-size: cover;
+}
+
+.img2 {
+    background-image: url(./images/img2.webp);
+    background-size: cover;
+}
+
+.img3 {
+    background-image: url(./images/img3.webp);
+    background-size: cover;
+}
+
+.img4 {
+    background-image: url(./images/img4.webp);
+    background-size: cover;
+}
+
+.img5 {
+    background-image: url(./images/img5.webp);
+    background-size: cover;
+}
+
+.image span {
+    position: absolute;
+    bottom: -18px;
+    left: -21px;
+    font-size: 6.5vw;
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(212, 212, 212);
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+.h3 {
+    font-size: 1.5em;
+    padding: 3vw 4vw 1.2vw 8vw;
+    font-family: sans-serif;
+}
+
+.box {
+    max-width: 80vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.boxes {
+    width: 100%;
+    min-height: 30vh;
+    background: linear-gradient(45deg, #192144, #1F1220);
+    border-radius: 10px;
+    padding: 10px;
+    font-family: sans-serif;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.boxes h3 {
+    padding: 1.1vh 1.2vh 2px 1.5vh;
+}
+
+.boxes p {
+    padding: 1.5vh 1.1vw 2.5vh 1.5vh;
+}
+.icons{
+    display: flex;
+    justify-content: flex-end;
+}
+.container3 {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.container3>h3 {
+    font-size: 1.5em;
+    padding: 5vw 4vw 1.2vw 0;
+    font-family: sans-serif;
+}
+
+.Ques {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Questions {
+    width: 100%;
+    background-color: rgb(45, 46, 46);
+    padding: 2vw 3.5vw;
+    margin: 4px;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.Questions:hover {
+    background-color: rgb(70, 71, 71);
+}
+
+
+.footer-input {
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-input h4 {
+    margin: 5vmax 2vw 0 2vh;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+.footer-input div {
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.footer-input input{
+    width: 60%;
+    height: 100%;
+    margin-left: 2.5vw;
+}
+.footer-input button{
+    width: 132px;
+    margin-left: 10px;
+    height: 100%;
+}
+.footer{
+    height: 60%;
+    width: 80vw;
+    margin: 5vh auto;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer h4{
+    margin: 2vh 0;
+}
+.list-conte{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 4vw 0;
+}
+ul{
+    list-style: none;
+    text-decoration: underline;
+    text-decoration-color:  rgba(255, 255, 255, 0.7);
+    
+}
+ul .list{
+    padding: 8px;
+   
+}
+.footer h5{
+    padding: 10px 0;
+}
+
+@media (max-width:600px) {
+    .container1 {
+        height: 79%;
+    }
+
+    .nav {
+        height: 80px;
+    }
+
+    .nav img {
+        width: 120px;
+        padding: 0.9vh 4vw;
+    }
+
+    .nav button {
+        height: 30px;
+        margin: 2.3vh 3.5vh;
+    }
+    
+    .input input{
+        padding: 2vh 3vh;
+    }
+    .input button{
+        padding: 2vh 2vw;
+    }
+
+    .main {
+        height: calc(90% - 90px);
+        justify-content: flex-start;
+    }
+
+    .text-container {
+        margin: 5vh 4vw;
+    }
+
+    .text1 h2 {
+        font-size: 4.1vh;
+        padding: 2vw 5vw;
+        line-height: 1.35;
+    }
+
+    .text2 p {
+        padding: 15px 5vw;
+    }
+
+    .input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container2 h2 {
+        font-size: 3vh;
+        padding: 4vh 4vw 2vh 8vw;
+    }
+    .img-conte{
+        max-width: 90vw;
+    }
+    .image span {
+        font-size: 10vh;
+        bottom: -10px;
+        left: -10px;
+    }
+
+    .h3 {
+        font-size: 1.1em;
+        padding: 4vh 4vw 1.8vh 8vw;
+
+    }
+
+    .box {
+        grid-template-columns: 1fr;
+    }
+
+    .container3 h3 {
+        font-size: 1.2em;
+        padding: 5vh 4vw 1.2vh 0;
+    }
+
+    .Questions {
+        font-size: 18px;
+        padding: 2vh 3vh;
+    }
+
+    .footer-input {
+        width: 90vw;
+        align-items: flex-start;
+    }
+    .footer-input div {
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer-input h4{
+        text-align: left;
+        margin: 2.5vmax 2vw 5px 0vh;
+
+    }
+    .footer-input input{
+        margin: 1.5vw 0vh;
+    }
+    .footer-input button{
+        margin: 1.5vw 0vh;
+        width: 40%;
+    }
+    .list-conte{
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+@media (max-width:770px) {
+
+    .image{
+        width: 135px;
+        height: 180px;
+    }
+    .img3,
+    .img4,
+    .img5 {
+        display: none;
+    }
+}
+
+@media (min-width:771px) and (max-width:970px) {
+
+    .img4,
+    .img5 {
+        display: none;
+    }
+}
+
+@media (min-width:971px) and (max-width:1200px) {
+    .img5 {
+        display: none;
+    }
+}
+
+@media (min-width:601px) and (max-width:999px) {
+    
+    .container1 {
+        height: 85%;
+    }
+    .nav {
+        height: 90px;
+    }
+
+    .nav button {
+        height: 35px;
+    }
+
+    .text-container {
+        margin: 0vh 10vw;
+
+    }
+
+    .text1 h2 {
+        font-size: 5vw;
+        padding: 1vw 5vw;
+        line-height: 1.2;
+    }
+
+    .image span {
+        font-size: 9vh;
+        bottom: -10px;
+        left: -10px;
+    }
+    .box{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
