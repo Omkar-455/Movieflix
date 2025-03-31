@@ -317,6 +317,9 @@ ul .list{
 .footer h5{
     padding: 10px 0;
 }
+.footer p{
+    padding: 0 0 20px;
+}
 
 @media (max-width:600px) {
     .container1 {
@@ -425,7 +428,7 @@ ul .list{
     .list-conte{
         grid-template-columns: 1fr;
     }
-
+  
 }
 
 
